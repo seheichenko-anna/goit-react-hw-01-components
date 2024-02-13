@@ -1,0 +1,33 @@
+.transactionHistory {
+    font-size: 16px;
+    width: 500px;
+    text-align: center;
+    background-color: honeydew;
+    border-radius: 4px;
+    /* padding: 16px; */
+    margin-top: 20px;
+    border: 1px solid whitesmoke;
+}
+
+.titleTable {
+    text-transform: uppercase;
+    background-color: lightcoral;
+    color: #fff;
+}
+
+.titleTable th {
+    padding: 8px;
+
+}
+
+.rowTable:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+.rowTable td {
+    padding: 4px;
+}
+
+.type {
+    text-transform: capitalize;
+}
